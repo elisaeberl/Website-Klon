@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#vorlage {
+  position: absolute;
+
+  opacity: 0.4;
+}
+
+body {
+  display: flex;
+  grid-template-columns: 18px 268px 44px 80px;
+  grid-template-rows: 170px 50px 1096px 45px 165px;
+  background-color: #4f6228;
+}
+
+nav {
+  padding: 18px 170px;
+  color: blue;
+  display: flex;
+}
+nav ul {
+  width: 550px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
