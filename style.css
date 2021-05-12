@@ -7,7 +7,7 @@
 #vorlage {
   position: absolute;
 
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 body {
@@ -18,14 +18,24 @@ body {
 }
 
 nav {
-  padding: 18px 170px;
+  padding: 18px 20px;
   color: blue;
   display: flex;
 }
 nav ul {
-  width: 550px;
+  margin-left: -1350px;
+  margin-top: 360px;
   list-style: none;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   color: white;
+}
+
+.header-image {
+  margin-left: 300px;
+}
+
+h1 {
+  margin-left: -1150;
 }
